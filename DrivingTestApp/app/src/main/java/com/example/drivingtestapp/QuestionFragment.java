@@ -63,18 +63,15 @@ public class QuestionFragment extends Fragment {
                     selectedAnswer = 4;
                 }
 
-                // Cập nhật câu trả lời của người dùng trong đối tượng `Question`
                 ques.setUserAnswer(selectedAnswer);
 
-                // Kiểm tra xem câu trả lời đúng hay sai và hiển thị Toast
                 if (ques.isCorrect()) {
                     Toast.makeText(getContext(), "Đúng", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(getContext(), "Sai", Toast.LENGTH_SHORT).show();
-                    ExamActivity.score -= 1; // Giảm điểm nếu sai
+                    ExamActivity.score -= 1;
                 }
 
-                // Khóa các lựa chọn để người dùng không thể chọn lại
                 rdoG.setEnabled(false);
                 idA.setEnabled(false);
                 idB.setEnabled(false);

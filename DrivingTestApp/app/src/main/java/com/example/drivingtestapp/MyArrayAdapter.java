@@ -22,7 +22,7 @@ public class MyArrayAdapter extends RecyclerView.Adapter<MyArrayAdapter.ViewHold
     private static final Class[] activities = new Class[]{
             ExamActivity.class,
             ExamActivity1.class,
-//            ExamActivity2.class,
+            ExamActivity2.class,
 //            ExamActivity3.class,
 //            ExamActivity4.class,
     };
