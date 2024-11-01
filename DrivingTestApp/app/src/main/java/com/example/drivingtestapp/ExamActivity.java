@@ -66,7 +66,6 @@ public class ExamActivity extends AppCompatActivity {
 
         getQuestions();
 
-        // Handle previous button click
         btnPrev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

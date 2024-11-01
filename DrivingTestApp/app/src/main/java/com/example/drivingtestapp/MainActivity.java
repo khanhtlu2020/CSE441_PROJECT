@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         if (id == R.id.nav_main) {
             drawerLayout.closeDrawer(GravityCompat.START);
+        } else if (id == R.id.nav_thithusathach) {
+            startActivity(new Intent(this, ExamListActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }
