@@ -91,7 +91,7 @@ public class MyArrayAdapter extends RecyclerView.Adapter<MyArrayAdapter.ViewHold
                                 context.startActivity(intent);
                             }
                         })
-                        .setNegativeButton("Hủy", null) 
+                        .setNegativeButton("Hủy", null)
                         .show();
             }
         });
