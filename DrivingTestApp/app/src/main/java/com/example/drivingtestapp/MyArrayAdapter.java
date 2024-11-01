@@ -24,7 +24,7 @@ public class MyArrayAdapter extends RecyclerView.Adapter<MyArrayAdapter.ViewHold
             ExamActivity1.class,
             ExamActivity2.class,
             ExamActivity3.class,
-//            ExamActivity4.class,
+            ExamActivity4.class,
     };
 
     public MyArrayAdapter(List<Exam> exams) {
