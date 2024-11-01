@@ -42,12 +42,12 @@ public class ExamActivity4 extends AppCompatActivity {
         viewPager = findViewById(R.id.viewpager);
         btnPrev = findViewById(R.id.btnPrev);
         btnNext = findViewById(R.id.btnNext);
-        btnSubmit = findViewById(R.id.btnSubmit); // Tìm button nộp bài
+        btnSubmit = findViewById(R.id.btnSubmit);
         cur = findViewById(R.id.current);
         total = findViewById(R.id.total);
         cDown = findViewById(R.id.countDown);
 
-        timeLeftInMillisTotal = 1140000; // 19 phút cho toàn bộ bài thi
+        timeLeftInMillisTotal = 1140000;
         countDownTimerTotal = new CountDownTimer(timeLeftInMillisTotal, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
@@ -66,7 +66,6 @@ public class ExamActivity4 extends AppCompatActivity {
 
         getQuestions();
 
-        // Handle previous button click
         btnPrev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +76,6 @@ public class ExamActivity4 extends AppCompatActivity {
             }
         });
 
-        // Handle next button click
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,11 +86,10 @@ public class ExamActivity4 extends AppCompatActivity {
             }
         });
 
-        // Handle submit button click
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                submitExam(); // Gọi hàm submitExam khi nhấn button
+                submitExam();
             }
         });
     }
@@ -117,7 +114,7 @@ public class ExamActivity4 extends AppCompatActivity {
                         updateButtonVisibility(position);
                     }
                 });
-                updateButtonVisibility(0); // Initialize button visibility
+                updateButtonVisibility(0);
             }
 
             @Override
@@ -132,15 +129,15 @@ public class ExamActivity4 extends AppCompatActivity {
         if (position == 0) {
             btnPrev.setVisibility(View.GONE);
             btnNext.setVisibility(View.VISIBLE);
-            btnSubmit.setVisibility(View.GONE);  // Ensure btnSubmit is hidden
+            btnSubmit.setVisibility(View.GONE);
         } else if (position == questions.size() - 1) {
             btnNext.setVisibility(View.GONE);
             btnPrev.setVisibility(View.VISIBLE);
-            btnSubmit.setVisibility(View.VISIBLE);  // Show btnSubmit when btnNext is gone
+            btnSubmit.setVisibility(View.VISIBLE);
         } else {
             btnPrev.setVisibility(View.VISIBLE);
             btnNext.setVisibility(View.VISIBLE);
-            btnSubmit.setVisibility(View.GONE);  // Ensure btnSubmit is hidden
+            btnSubmit.setVisibility(View.GONE);
         }
     }
 
@@ -157,25 +154,21 @@ public class ExamActivity4 extends AppCompatActivity {
     }
 
     private void submitExam() {
-        int correctAnswers = calculateCorrectAnswers(); // Tính tổng số câu đúng
+        int correctAnswers = calculateCorrectAnswers();
         int totalQuestions = questions.size();
-        String timeTaken = getTimeTaken(); // Lấy thời gian làm bài
+        String timeTaken = getTimeTaken();
 
-        // Kiểm tra kết quả ĐẠT hoặc TRƯỢT
         String passStatus = correctAnswers >= 21 ? "ĐẠT" : "TRƯỢT";
 
-        // Tạo thông báo kết quả bao gồm số câu đúng và trạng thái
         String resultMessage = String.format("Đúng %d/%d câu.\nThời gian làm bài: %s\nKết quả: %s",
                 correctAnswers, totalQuestions, timeTaken, passStatus);
 
-        // Hiển thị dialog với kết quả
         new AlertDialog.Builder(this)
                 .setTitle("Kết quả")
                 .setMessage(resultMessage)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // Quay trở lại ExamListActivity sau khi bấm OK
                         Intent intent = new Intent(ExamActivity4.this, ExamListActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
