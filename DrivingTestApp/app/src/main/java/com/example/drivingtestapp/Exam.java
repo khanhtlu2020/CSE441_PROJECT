@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 public class Exam {
     private String namedethi;
-    private int imagedethi;  // Sử dụng kiểu int cho ID tài nguyên ảnh
+    private int imagedethi;
     private int soluongCauhoi;
-    private int thoigian; // Thời gian làm bài, tính bằng phút
+    private int thoigian;
 
-    // Constructor với các thuộc tính mới
     public Exam(String namedethi, int imagedethi, int soluongCauhoi, int thoigian) {
         this.namedethi = namedethi;
         this.imagedethi = imagedethi;
@@ -16,7 +15,6 @@ public class Exam {
         this.thoigian = thoigian;
     }
 
-    // Getter và Setter cho các thuộc tính
     public String getNamedethi() {
         return namedethi;
     }
@@ -51,17 +49,14 @@ public class Exam {
 
     private static int lastExamId = 0;
 
-    // Tạo danh sách đề thi
     public static ArrayList<Exam> createExamsList(int numExams) {
         ArrayList<Exam> exams = new ArrayList<>();
         lastExamId = 0;
 
         for (int i = 1; i <= numExams; i++) {
-            // Ví dụ, có thể tạo các đề thi với số lượng câu hỏi và thời gian khác nhau
             int soluongCauhoi = 25;
             int thoigian = 19;
 
-            // Sử dụng ID tài nguyên ảnh của Android để minh họa
             int imagedethi = android.R.drawable.checkbox_off_background;
 
             exams.add(new Exam("Đề số " + ++lastExamId, imagedethi, soluongCauhoi, thoigian));
