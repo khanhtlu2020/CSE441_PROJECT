@@ -2,71 +2,69 @@ package com.example.drivingtestapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.widget.Toolbar;
-import android.view.MenuItem;
-import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+import java.util.ArrayList;
 
-    Button btnExam, btnLearn, btnSign, btnLaw;
+public class ExamListActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    ArrayList<Exam> exams;
     private DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exam_list);
 
-        btnExam = findViewById(R.id.btnExam);
-        btnLearn = findViewById(R.id.btnLearn);
-        btnSign = findViewById(R.id.btnSign);
-        btnLaw = findViewById(R.id.btnLawDetail);
+        RecyclerView recyclerView_dethi = (RecyclerView) findViewById(R.id.recyclerView_dethi);
 
-        btnExam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ExamListActivity.class);
-                startActivity(intent);
-            }
-        });
+        exams = Exam.createExamsList(5);
+        MyArrayAdapter adapter = new MyArrayAdapter(exams);
+        recyclerView_dethi.setAdapter(adapter);
+        recyclerView_dethi.setLayoutManager(new LinearLayoutManager(this));
 
-        Toolbar toolbar = findViewById(R.id.toolbar_main);
+        Toolbar toolbar = findViewById(R.id.toolbar_thi);
         setSupportActionBar(toolbar);
 
-        drawerLayout = findViewById(R.id.drawer_layout_main);
-        NavigationView navigationView = findViewById(R.id.nav_view);
-
+        drawerLayout = findViewById(R.id.drawer_layout_thi);
+        NavigationView navigationView = findViewById(R.id.nav_view_thi);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
+
         navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
+
         if (id == R.id.nav_main) {
-            drawerLayout.closeDrawer(GravityCompat.START);
+            startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_thithusathach) {
-            startActivity(new Intent(this, ExamListActivity.class));
+            drawerLayout.closeDrawer(GravityCompat.START);
         } else if (id == R.id.nav_thoat) {
             exit();
         }
+
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
     private void exit() {
         finishAffinity();
         System.exit(0);
     }
-
 }
