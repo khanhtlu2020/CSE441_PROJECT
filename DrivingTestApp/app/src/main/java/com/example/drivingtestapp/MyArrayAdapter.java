@@ -23,7 +23,7 @@ public class MyArrayAdapter extends RecyclerView.Adapter<MyArrayAdapter.ViewHold
             ExamActivity.class,
             ExamActivity1.class,
             ExamActivity2.class,
-//            ExamActivity3.class,
+            ExamActivity3.class,
 //            ExamActivity4.class,
     };
 
