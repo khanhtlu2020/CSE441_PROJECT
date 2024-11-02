@@ -56,11 +56,12 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
             drawerLayout.closeDrawer(GravityCompat.START);
         } else if (id == R.id.nav_hoclythuyet) {
             startActivity(new Intent(this, LearningActivity.class));
-<<<<<<< HEAD
         } else if (id == R.id.nav_bienbao) {
             startActivity(new Intent(this, RoadSignActivity.class));
-=======
->>>>>>> a49e59a88936753ccfe79e6f2701ae255dd0ad02
+        } else if (id == R.id.nav_tracuuluat) {
+            startActivity(new Intent(this, LawListActivity.class));
+        } else if (id == R.id.nav_bienbao) {
+            startActivity(new Intent(this, RoadSignActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }
