@@ -60,6 +60,8 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
             startActivity(new Intent(this, RoadSignActivity.class));
         } else if (id == R.id.nav_tracuuluat) {
             startActivity(new Intent(this, LawListActivity.class));
+        } else if (id == R.id.nav_bienbao) {
+            startActivity(new Intent(this, RoadSignActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }
