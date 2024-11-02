@@ -90,8 +90,11 @@ public class LearningActivity extends AppCompatActivity implements NavigationVie
             startActivity(new Intent(this, ExamListActivity.class));
         } else if (id == R.id.nav_hoclythuyet) {
             drawerLayout.closeDrawer(GravityCompat.START);
+<<<<<<< HEAD
         } else if (id == R.id.nav_bienbao) {
             startActivity(new Intent(this, RoadSignActivity.class));
+=======
+>>>>>>> a49e59a88936753ccfe79e6f2701ae255dd0ad02
         } else if (id == R.id.nav_thoat) {
             exit();
         }

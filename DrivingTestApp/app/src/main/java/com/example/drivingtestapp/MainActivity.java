@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+<<<<<<< HEAD
         btnSign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+=======
+>>>>>>> a49e59a88936753ccfe79e6f2701ae255dd0ad02
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
 
@@ -75,8 +78,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(new Intent(this, ExamListActivity.class));
         } else if (id == R.id.nav_hoclythuyet) {
             startActivity(new Intent(this, LearningActivity.class));
+<<<<<<< HEAD
         } else if (id == R.id.nav_bienbao) {
             startActivity(new Intent(this, RoadSignActivity.class));
+=======
+>>>>>>> a49e59a88936753ccfe79e6f2701ae255dd0ad02
         } else if (id == R.id.nav_thoat) {
             exit();
         }
