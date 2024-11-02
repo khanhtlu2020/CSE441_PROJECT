@@ -54,6 +54,8 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
             startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_thithusathach) {
             drawerLayout.closeDrawer(GravityCompat.START);
+        } else if (id == R.id.nav_hoclythuyet) {
+            startActivity(new Intent(this, LearningActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }

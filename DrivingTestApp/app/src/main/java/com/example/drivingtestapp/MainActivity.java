@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+        btnLearn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LearningActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
 
@@ -57,6 +65,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             drawerLayout.closeDrawer(GravityCompat.START);
         } else if (id == R.id.nav_thithusathach) {
             startActivity(new Intent(this, ExamListActivity.class));
+        } else if (id == R.id.nav_hoclythuyet) {
+            startActivity(new Intent(this, LearningActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }
