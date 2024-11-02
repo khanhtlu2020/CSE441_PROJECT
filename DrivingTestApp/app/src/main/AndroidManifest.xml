@@ -37,9 +37,6 @@
             android:name=".RoadSignActivity"
             android:exported="false" />
         <activity
-            android:name=".RoadSignActivity"
-            android:exported="false" />
-        <activity
             android:name=".LearningActivity"
             android:exported="false" />
         <activity

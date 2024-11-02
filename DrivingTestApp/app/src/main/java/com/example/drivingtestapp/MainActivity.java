@@ -87,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(new Intent(this, RoadSignActivity.class));
         } else if (id == R.id.nav_tracuuluat) {
             startActivity(new Intent(this, LawListActivity.class));
-        } else if (id == R.id.nav_bienbao) {
-            startActivity(new Intent(this, RoadSignActivity.class));
         } else if (id == R.id.nav_thoat) {
             exit();
         }
