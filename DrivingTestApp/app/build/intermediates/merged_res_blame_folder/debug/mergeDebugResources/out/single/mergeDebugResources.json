@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb203c.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb203c.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp112.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp112.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp101.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp101.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\menu_menu_navigation.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\menu\\menu_navigation.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301f.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301f.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb201a.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb201a.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb202.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb202.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_tracuuluat.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\tracuuluat.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301c.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301c.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301e.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301e.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb205a.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb205a.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb204.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb204.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_hoclythuyet.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\hoclythuyet.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp105.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp105.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_learning_list.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\learning_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_activity_learning.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\activity_learning.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp102.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp102.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301b.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301b.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb203a.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb203a.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb201b.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb201b.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301i.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301i.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp123phai.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp123phai.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_exam.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\exam.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_activity_road_sign.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\activity_road_sign.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_activity_exam_list.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\activity_exam_list.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301a.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301a.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_thithusathach.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\thithusathach.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp123trai.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp123trai.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_roadsign_list.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\roadsign_list.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb203b.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb203b.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301h.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301h.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_activity_exam.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\activity_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_exam_list.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\exam_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\layout_fragment_question.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\layout\\fragment_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_motorbike.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\motorbike.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_camp104.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/camp104.png"
+    },
+    {
+        "merged": "com.example.drivingtestapp-debug-31:/drawable_bb301d.png.flat",
+        "source": "com.example.drivingtestapp-main-33:/drawable/bb301d.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\drawable_bienbao.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\drawable\\bienbao.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.drivingtestapp-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]
